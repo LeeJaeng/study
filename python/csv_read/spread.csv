@@ -1,0 +1,13 @@
+s,character_client_id,name,description,grade,area,sex,race,class,isbasic,isevolve,model_resource,model_skin,size,atkspeed,movespeed,hp,hp_recovery_rate,atk,def_physics,def_magic,critical_chance,critical_dmg,evasionchance,skill1,skill2,skill3,skill4,skill5,skill6
+int,string,string,string,int,string,string,string,string,bool,bool,string,string,float,float,float,float,float,float,float,float,float,float,float,string,string,string,string,string,string
+유니크id,그룹,이름,프로필 설명,등급,지역,성별,종족,직업,기본여부,각성캐릭터 여부,캐릭터 모델 리소스,모델 스킨,캐릭터 크기(장),공격속도,이동속도,체력,초당 체력회복률,공격력,물리방어력,마법방어력,치명타확률,치명타데미지,평타 회피율,스킬1,스킬2,스킬3,스킬4,스킬5,스킬6
+1,kain_1,kain_name,kain_grade1_desc,1,bastia,m,human,swordman,TRUE,,normal_swordman,kain,1,1.5,1.5,150,0.5,15,8,4,2,200,5,kain_basic1,kain_basic2,kain_active1,kain_active2,,
+2,william_1,william_name,william_grade1_desc,1,bastia,m,human,knight,TRUE,,normal_knight,william,1,1.2,1.2,200,0.8,10,10,5,2,200,5,william_basic1,william_basic2,william_active1,william_active2,,
+3,apollon_3,apollon_name,apollon_grade3_desc,3,hleas,m,human,archer,TRUE,,normal_archer,apollon,1,1,1.8,100,0.5,15,6,5,2,200,5,apollon_basic1,apollon_active1,apollon_active2,,,
+4,daphne_2,daphne_name,daphne_grade2_desc,2,helas,f,elf,priest,TRUE,,normal_priest,daphne,1,0.8,1,70,0.2,8,4,8,2,200,5,daphne_basic1,daphne_basic2,daphne_active1,,,
+5,barad_1,barad_name,barad_grade1_desc,1,bastia,m,orc,warrior,TRUE,,normal_warrior,barad,1,1.2,1.3,200,0.5,10,10,4,2,200,5,barad_basic1,barad_basic2,barad_active1,barad_active2,,
+6,aelia_2,aelia_name,aelia_grade2_desc,2,bastia,f,elf,archer,TRUE,,normal_archer,aelia,1,1,1,100,0.2,15,5,8,2,200,5,aelia_basic1,aelia_active2,,,,
+7,goblin_warrior_1,goblin_warrior_name,goblin_warrior_grade1_desc,1,enemy,m,goblin,warrior,TRUE,,normal_warrior,goblin_warrior,1,1.2,0.8,100,0.2,5,5,5,2,200,5,goblin_warrior_basic1,goblin_warrior_active1,,,,
+8,darkelf_archer_1,darkelf_archer_name,darkelf_archer_grade1_desc,1,enemy,f,darkelf,archer,TRUE,,normal_archer,darkelf_archer,1,1,0.8,50,0.2,10,3,3,2,200,5,darkelf_archer_basic1,darkelf_archer_active1,,,,
+9,skeleton_knight_1,skeleton_knight_name,skeleton_knight_grade1_desc,1,enemy,m,skeleton,knight,TRUE,,normal_knight,skeleton_knight,1,1.2,1,150,0.2,4,7,5,2,200,5,skeleton_knight_basic1,skeleton_knight_active1,,,,
+10,zombie_swordman_1,zombie_swordman_name,zombie_swordman_grade1_desc,1,enemy,m,zombie,swordman,TRUE,,normal_swordman,zombie_swordman,1,1.5,1.3,80,0.2,7,4,4,2,200,5,zombie_swordman_basic1,zombie_swordman_active1,,,,
